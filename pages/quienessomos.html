@@ -4,38 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Quienes Somos</title>
 </head>
-<body>
-    <header class="header-1">
-    <a href="#">
-        <img src="https://us.123rf.com/450wm/guavanaboy/guavanaboy2112/guavanaboy211201140/179820737-dise%C3%B1o-de-logotipo-de-pastel.jpg?ver=6" alt="Logo">
-    </a>
-    <nav class="menu-1">
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/quienessomos.html">Quienes Somos</a></li>
-            <li><a href="../pages/tortas.html">Tortas</a></li>
-            <li><a href="../pages/masitas.html">Masitas</a></li>
-            <li><a href="../pages/evento.html">Eventos</a></li>
+  <header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style= "justify-content: flex-end;">
+          <div>
+            <a class="navbar-brand" href="#">
+              <img src="https://us.123rf.com/450wm/guavanaboy/guavanaboy2112/guavanaboy211201140/179820737-dise%C3%B1o-de-logotipo-de-pastel.jpg?ver=6" alt="Logo" width="150" height="150" class="d-inline-block align-text-top" style="display: flex; height: 150px;">
+            </a>
+          </div>
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./quienessomos.html">¿Quienes somos?</a>
+                </li>
+                  <a class="nav-link" href="./eventos-catering.html">Catering</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./tortas.html">Tortas</a></li>
+                    <li><a class="dropdown-item" href="./masitas.html">Masitas</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+<main class="main-accordion">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Misión
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Deleitar a nuestros clientes con deliciosos productos, elaborados eficientemente con insumos de calidad y por un equipo humano comprometido.</strong>  Ser la pastelería líder y preferida por el sabor, calidad y creatividad de nuestros productos, la excelente atención y la cercanía a nuestros clientes. Convertir a nuestra compañía en la mejor del sector nacional, alcanzando los niveles de rentabilidad establecidos gracias al apoyo de clientes satisfechos que siempre elijan nuestros productos.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Visión
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Nuestra compañía observa un futuro en el que lideramos la industria panadera a nivel mundial, con los mejores productos, clientes, inversionistas, proveedores y empleados satisfechos, además, de ser pioneros en productos y un servicio que le encante a las próximas generaciones. Queremos que nuestros clientes no solo consigan el mejor pan en nuestra compañía sino que además, sean tratados de la mejor forma, de esta manera conseguiremos un futuro en el que la sociedad se vea afectada positivamente por la presencia de nuestras panaderías en el mercado.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Valores
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Queremos que nuestros clientes no solo consigan el mejor pan en nuestra compañía sino que además, sean tratados de la mejor forma, de esta manera conseguiremos un futuro en el que la sociedad se vea afectada positivamente por la presencia de nuestras panaderías en el mercado. Nuestra compañía observa un futuro en el que lideramos la industria panadera a nivel mundial, con los mejores productos, clientes, inversionistas, proveedores y empleados satisfechos, además, de ser pioneros en productos y un servicio que le encante a las próximas generaciones.
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="cartas-1"> 
+      <div class="card" style="width: auto;">
+        <img src="../Recursos/pastelero-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>ORIGENES</strong></h5>
+          <p class="card-text">Somos un emprendimiento de personas mexicanas, con el proposito de llegar a la mesa de los argentinos con los mejores productos caseros.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Productos Caseros</li>
+          <li class="list-group-item">"La mejor calidad del pais"</li>
+          <li class="list-group-item">"Nace en la cocina, termina en tu cocina"</li>
         </ul>
-    </nav>
-    </header>
-</body>
-<main class="main-1">
-    <section class="flex-padre-1">
-        <div>
-            <img src="../Recursos/pastelero-5.jpg" alt="Pastelera">
+      </div>  
+      <div class="card" style="width: auto;">
+        <img src="../Recursos/pastelero-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><strong>A DONDE VAMOS</strong></h5>
+          <p class="card-text">Buscamos expandirnos globalmente, donde seamos reconcidos por nuestra autenticidad y calidad de los productos..</p>
         </div>
-        <div>
-            <p>La Pastelería es un emprendimiento iniciado por Profesionales Gastronómicos egresados en Gato Dumas Colegio Gastronómico, inspirado en una Pastelería Artesanal contemporánea, que en un principio se especializó únicamente en tortas, pero hoy, cuenta con una gran variedad de Minicakes, Brownies, Alfajores, Cup Cakes, Cake Pops, Petit fours y más. Su objetivo es ofrecer un producto de alta calidad, excelente presentación, pero con el sabor de lo casero.</p>
-        </div>
-        <div>
-            <img src="../Recursos/pastelero-4.jpg" alt="Empleada-3">
-        </div>
-        <div>
-            <p>Egresé del Colegio de Cocineros del Gato Dumas en el 1999. Así comenzó mi carrera en el Catering de Casa de la Villa, de la mano de mi madre. Partí a Palma de Mallorca, donde trabajé en varios restaurantes, como responsable de repostería. Junto a mi marido Mauro Andreu abrimos nuestro primer restaurante “Mas Canyet”, en la ciudad de Girona, etapa que duro 9 años!</p>
-        </div>
-    </section>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Expandirnos al mundo</li>
+          <li class="list-group-item">Ser reconocidos mundialmente</li>
+          <li class="list-group-item">"Llevar a las cocinas del mundo, desde Argentina"</li>
+        </ul>
+      </div> 
+    </div>
 </main>
+
 </html>
